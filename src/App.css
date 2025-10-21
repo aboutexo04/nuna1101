@@ -1,0 +1,73 @@
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.App button {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  margin: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.App button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(79, 172, 254, 0.6);
+  background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+}
+
+.App button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 12px rgba(79, 172, 254, 0.5);
+}
+
+.App button.reset-btn {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ffb3b3 100%);
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+.App button.reset-btn:hover {
+  background: linear-gradient(135deg, #ffb3b3 0%, #ff6b6b 100%);
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.6);
+}
+
+.App button.reset-btn:active {
+  box-shadow: 0 3px 12px rgba(255, 107, 107, 0.5);
+}
+
+.App h2 {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px solid #f0f0f0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
