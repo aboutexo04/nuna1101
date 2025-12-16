@@ -1,5 +1,7 @@
 # 🔢 Zustand Counter
 
+<img width="569" height="441" alt="image" src="https://github.com/user-attachments/assets/d135e014-6519-4142-af97-91d0990286e9" />
+
 > React와 Zustand를 활용한 상태 관리 카운터 애플리케이션
 
 [![React](https://img.shields.io/badge/React-19.1.1-61DAFB?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
